@@ -23,7 +23,8 @@ from html.parser import HTMLParser
 # ----------------------- 설정 -----------------------
 BASE = "https://community.linkareer.com/job-materials"
 DAYS = 30                 # 최근 며칠치 보관
-MAX_PAGES = 15            # 페이지네이션 안전 상한
+MIN_VIEWS = 300           # 이 조회수 미만인 글은 제외 (0으로 두면 전부 수집)
+MAX_PAGES = 25            # 페이지네이션 안전 상한
 STOP_AFTER_OLD = 2        # 연속으로 N페이지 전부 cutoff 이전이면 중단
 REQUEST_DELAY = 0.8       # 페이지 간 대기(초) - 서버 부담 최소화
 KST = dt.timezone(dt.timedelta(hours=9))
@@ -212,13 +213,18 @@ def collect():
 
             if d < cutoff:
                 continue  # 오래된 글은 버림
-            page_has_fresh = True
-            seen_ids.add(post_id)
 
             # 조회/추천: 날짜 셀 이후의 숫자 셀들
             nums = [to_int(c) for c in cells if re.match(r"^[\d,]+$", c.strip())]
             views = nums[0] if len(nums) >= 1 else 0
             likes = nums[1] if len(nums) >= 2 else 0
+
+            # 최소 조회수 필터 (당일 글은 조회수가 아직 안 쌓였어도 통과시킴)
+            if MIN_VIEWS > 0 and views < MIN_VIEWS and d != today:
+                continue
+
+            page_has_fresh = True
+            seen_ids.add(post_id)
 
             items.append({
                 "id": post_id,
