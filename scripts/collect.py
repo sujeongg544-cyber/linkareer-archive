@@ -22,7 +22,7 @@ from html.parser import HTMLParser
 
 # ----------------------- 설정 -----------------------
 BASE = "https://community.linkareer.com/job-materials"
-DAYS = 14                 # 최근 며칠치 보관
+DAYS = 30                 # 최근 며칠치 보관
 MAX_PAGES = 15            # 페이지네이션 안전 상한
 STOP_AFTER_OLD = 2        # 연속으로 N페이지 전부 cutoff 이전이면 중단
 REQUEST_DELAY = 0.8       # 페이지 간 대기(초) - 서버 부담 최소화
