@@ -198,12 +198,14 @@ def collect():
             if not title:
                 continue
 
-            # 등록일 셀: 날짜/시간 패턴을 가진 셀을 탐색
+            # 등록일 셀: 날짜/시간 패턴을 가진 셀을 탐색 (인덱스도 기억)
             date_raw = None
-            for c in cells:
+            date_idx = -1
+            for i, c in enumerate(cells):
                 cs = c.strip()
                 if re.match(r"^\d{4}\.\d{1,2}\.\d{1,2}$", cs) or re.match(r"^\d{1,2}:\d{2}$", cs):
                     date_raw = cs
+                    date_idx = i
                     break
             d = normalize_date(date_raw, today)
             if d is None:
@@ -214,8 +216,9 @@ def collect():
             if d < cutoff:
                 continue  # 오래된 글은 버림
 
-            # 조회/추천: 날짜 셀 이후의 숫자 셀들
-            nums = [to_int(c) for c in cells if re.match(r"^[\d,]+$", c.strip())]
+            # 조회/추천: 반드시 '날짜 셀 이후'의 순수 숫자 셀만 사용.
+            # (날짜 앞의 글 번호 8423 등이 조회수로 잘못 잡히는 것을 방지)
+            nums = [to_int(c) for c in cells[date_idx + 1:] if re.match(r"^[\d,]+$", c.strip())]
             views = nums[0] if len(nums) >= 1 else 0
             likes = nums[1] if len(nums) >= 2 else 0
 
