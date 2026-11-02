@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T22:49:35.977160+09:00",
+  "generated_at": "2026-11-02T22:59:49.541365+09:00",
   "generated_date": "2026-11-02",
-  "cutoff_date": "2026-10-20",
-  "days": 14,
-  "total": 44,
+  "cutoff_date": "2026-10-04",
+  "days": 30,
+  "total": 78,
   "tab_labels": {
     "activity": "맞춤 활동",
     "recruit": "맞춤 채용",
@@ -17,10 +17,10 @@
     "tip"
   ],
   "counts": {
-    "activity": 8,
-    "recruit": 8,
-    "news": 18,
-    "tip": 10
+    "activity": 16,
+    "recruit": 16,
+    "news": 35,
+    "tip": 11
   },
   "tabs": {
     "activity": [
@@ -111,6 +111,94 @@
         "date_raw": "2026.10.20",
         "views": 8383,
         "likes": 270
+      },
+      {
+        "id": 6640510,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🔥SK계열사에서 일경험 인턴 뽑아요! 대기업 계열사 일경험 인턴 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6640510",
+        "date": "2026-10-19",
+        "date_raw": "2026.10.19",
+        "views": 8378,
+        "likes": 630
+      },
+      {
+        "id": 6626256,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "💻AI 스펙 하루만에 완성해요! IT 및 AI 관련 활동 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/6626256",
+        "date": "2026-10-15",
+        "date_raw": "2026.10.15",
+        "views": 8373,
+        "likes": 229
+      },
+      {
+        "id": 6622390,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "✈️겨울방학에 해외가요! 해외봉사·유럽 문화교류 활동 공고.zip",
+        "url": "https://community.linkareer.com/job-materials/6622390",
+        "date": "2026-10-14",
+        "date_raw": "2026.10.14",
+        "views": 8370,
+        "likes": 382
+      },
+      {
+        "id": 6618134,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🪄대기업 스펙 쌓고 싶다면! 경쟁률 낮은 대기업 일경험&프로젝트 공고 모음",
+        "url": "https://community.linkareer.com/job-materials/6618134",
+        "date": "2026-10-13",
+        "date_raw": "2026.10.13",
+        "views": 8366,
+        "likes": 441
+      },
+      {
+        "id": 6614492,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🦀뷰티 마케팅 포폴 쌓기 좋음! 인기 뷰티 대외활동 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6614492",
+        "date": "2026-10-12",
+        "date_raw": "2026.10.12",
+        "views": 8362,
+        "likes": 284
+      },
+      {
+        "id": 6603118,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🪙은행 가고싶다면 반드시 해야하는! 인기 금융권 대외활동 공고 모음",
+        "url": "https://community.linkareer.com/job-materials/6603118",
+        "date": "2026-10-08",
+        "date_raw": "2026.10.08",
+        "views": 8357,
+        "likes": 452
+      },
+      {
+        "id": 6599633,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🖋️에디터·콘텐츠 직무 꿈꾼다면 필수 활동! 에디터 관련 대외활동 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/6599633",
+        "date": "2026-10-07",
+        "date_raw": "2026.10.07",
+        "views": 8353,
+        "likes": 306
+      },
+      {
+        "id": 6596021,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🍗시험기간에 병행하기 좋은! 간단한 대외활동 공고 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/6596021",
+        "date": "2026-10-06",
+        "date_raw": "2026.10.06",
+        "views": 8349,
+        "likes": 399
       }
     ],
     "recruit": [
@@ -201,6 +289,94 @@
         "date_raw": "2026.10.20",
         "views": 8382,
         "likes": 188
+      },
+      {
+        "id": 6640628,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "💼금융·제조 등 인기 산업군 총집! 대기업 신입 공채 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/6640628",
+        "date": "2026-10-19",
+        "date_raw": "2026.10.19",
+        "views": 8379,
+        "likes": 307
+      },
+      {
+        "id": 6626182,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🎮게임·가전·식품까지! 산업군 다양한 10월 인턴 공고 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/6626182",
+        "date": "2026-10-15",
+        "date_raw": "2026.10.15",
+        "views": 8372,
+        "likes": 131
+      },
+      {
+        "id": 6622326,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "⚡이름만 들어도 아는! 네임드 대기업 신입 인턴 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6622326",
+        "date": "2026-10-14",
+        "date_raw": "2026.10.14",
+        "views": 8369,
+        "likes": 290
+      },
+      {
+        "id": 6618049,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🔎경제·경영학과 모여라! 연봉 높은 증권사 및 저축은행 신입·인턴 LIST",
+        "url": "https://community.linkareer.com/job-materials/6618049",
+        "date": "2026-10-13",
+        "date_raw": "2026.10.13",
+        "views": 8365,
+        "likes": 327
+      },
+      {
+        "id": 6614447,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🔧공대생 주목! 스크랩수 많은 인기 이공계 신입 공고 모음",
+        "url": "https://community.linkareer.com/job-materials/6614447",
+        "date": "2026-10-12",
+        "date_raw": "2026.10.12",
+        "views": 8361,
+        "likes": 244
+      },
+      {
+        "id": 6603050,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🔋AI부터 바이오까지! 전망 좋은 산업 인턴·신입 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6603050",
+        "date": "2026-10-08",
+        "date_raw": "2026.10.08",
+        "views": 8356,
+        "likes": 224
+      },
+      {
+        "id": 6599572,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🎫정규직 직행 티켓! 인기 기업 하반기 채용연계 인턴 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6599572",
+        "date": "2026-10-07",
+        "date_raw": "2026.10.07",
+        "views": 8352,
+        "likes": 358
+      },
+      {
+        "id": 6595469,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🎠평균연봉 1억 이상! 연봉 많이 주는 대기업·공기업·외국계 하반기 채용 LIST",
+        "url": "https://community.linkareer.com/job-materials/6595469",
+        "date": "2026-10-06",
+        "date_raw": "2026.10.06",
+        "views": 8348,
+        "likes": 594
       }
     ],
     "news": [
@@ -224,7 +400,7 @@
         "date": "2026-11-02",
         "date_raw": "13:30",
         "views": 8420,
-        "likes": 309
+        "likes": 310
       },
       {
         "id": 6679786,
@@ -401,6 +577,193 @@
         "date_raw": "2026.10.20",
         "views": 8380,
         "likes": 294
+      },
+      {
+        "id": 6640730,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/19] 메리츠증권, 2026년 대졸 신입사원 공개채용",
+        "url": "https://community.linkareer.com/job-materials/6640730",
+        "date": "2026-10-19",
+        "date_raw": "2026.10.19",
+        "views": 8377,
+        "likes": 558
+      },
+      {
+        "id": 6639971,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/19] 현대차·기아, AI 엔지니어 채용 연계 '소프티어 부트캠프' 모집",
+        "url": "https://community.linkareer.com/job-materials/6639971",
+        "date": "2026-10-19",
+        "date_raw": "2026.10.19",
+        "views": 8376,
+        "likes": 853
+      },
+      {
+        "id": 6630082,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/16] 9월 취업자 11만 3천명 늘어…석달째 10만명대 증가",
+        "url": "https://community.linkareer.com/job-materials/6630082",
+        "date": "2026-10-16",
+        "date_raw": "2026.10.16",
+        "views": 8375,
+        "likes": 555
+      },
+      {
+        "id": 6629437,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/16] 강동구, 27일 일자리 매칭데이 개최…구직자와 기업 잇는 채용의 장",
+        "url": "https://community.linkareer.com/job-materials/6629437",
+        "date": "2026-10-16",
+        "date_raw": "2026.10.16",
+        "views": 8374,
+        "likes": 217
+      },
+      {
+        "id": 6625120,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/15] 안양 범계역 광장서 16일 여성 진로 페스티벌…AI 신직종 체험·현장 채용",
+        "url": "https://community.linkareer.com/job-materials/6625120",
+        "date": "2026-10-15",
+        "date_raw": "2026.10.15",
+        "views": 8371,
+        "likes": 358
+      },
+      {
+        "id": 6622237,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/14] 수원시, 20일 ‘일자리박람회’ 300명 채용",
+        "url": "https://community.linkareer.com/job-materials/6622237",
+        "date": "2026-10-14",
+        "date_raw": "2026.10.14",
+        "views": 8368,
+        "likes": 496
+      },
+      {
+        "id": 6621071,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/14] AI 반도체 기술 한자리에…’SEDEX 2026' 역대 최대 규모 개막",
+        "url": "https://community.linkareer.com/job-materials/6621071",
+        "date": "2026-10-14",
+        "date_raw": "2026.10.14",
+        "views": 8367,
+        "likes": 334
+      },
+      {
+        "id": 6618176,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/13] 크래프톤, 'AI Native' 신입 100명 이상 채용…역대 최대 규모",
+        "url": "https://community.linkareer.com/job-materials/6618176",
+        "date": "2026-10-13",
+        "date_raw": "2026.10.13",
+        "views": 8364,
+        "likes": 1140
+      },
+      {
+        "id": 6617280,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/13] 서울시, 내년 공공기관 통합채용 확대 시행…23개 기관 참여",
+        "url": "https://community.linkareer.com/job-materials/6617280",
+        "date": "2026-10-13",
+        "date_raw": "2026.10.13",
+        "views": 8363,
+        "likes": 331
+      },
+      {
+        "id": 6614535,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/12] 토스플레이스, 법인 설립 후 첫 대규모 공채…세 자릿수 채용",
+        "url": "https://community.linkareer.com/job-materials/6614535",
+        "date": "2026-10-12",
+        "date_raw": "2026.10.12",
+        "views": 8360,
+        "likes": 1564
+      },
+      {
+        "id": 6613537,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/12] \"클로드·챗GPT 쓸 줄 아세요?\"…AI 툴 명시 채용공고 전년比 170% 증가",
+        "url": "https://community.linkareer.com/job-materials/6613537",
+        "date": "2026-10-12",
+        "date_raw": "2026.10.12",
+        "views": 8359,
+        "likes": 375
+      },
+      {
+        "id": 6603049,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/8] \"식품에 열정 있다면\" 오뚜기, 하반기 대졸·외국인 유학생 신입 채용",
+        "url": "https://community.linkareer.com/job-materials/6603049",
+        "date": "2026-10-08",
+        "date_raw": "2026.10.08",
+        "views": 8355,
+        "likes": 791
+      },
+      {
+        "id": 6602375,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/8] 하루 6시간 일하고 \"저 쉬었는데요?\"… 쉰 적 없는 '쉬었음 청년'",
+        "url": "https://community.linkareer.com/job-materials/6602375",
+        "date": "2026-10-08",
+        "date_raw": "2026.10.08",
+        "views": 8354,
+        "likes": 345
+      },
+      {
+        "id": 6599691,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/7] 관악구, 온·오프라인 취업박람회 개최…“맞춤형 지원 강화”",
+        "url": "https://community.linkareer.com/job-materials/6599691",
+        "date": "2026-10-07",
+        "date_raw": "2026.10.07",
+        "views": 8351,
+        "likes": 346
+      },
+      {
+        "id": 6598760,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/7] 청년 취업난·기업 인력난 해소, '청년 엔지니어 육성 사업' 주목",
+        "url": "https://community.linkareer.com/job-materials/6598760",
+        "date": "2026-10-07",
+        "date_raw": "2026.10.07",
+        "views": 8350,
+        "likes": 376
+      },
+      {
+        "id": 6595908,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/6] 파주시 22일 취업박람회…49개 기업 참여, 430여명 채용",
+        "url": "https://community.linkareer.com/job-materials/6595908",
+        "date": "2026-10-06",
+        "date_raw": "2026.10.06",
+        "views": 8347,
+        "likes": 437
+      },
+      {
+        "id": 6594992,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/6] 해외서도 'AI 쇼크' 청년채용 줄었지만… TSMC 등 오히려 20대 직원 비중 늘어",
+        "url": "https://community.linkareer.com/job-materials/6594992",
+        "date": "2026-10-06",
+        "date_raw": "2026.10.06",
+        "views": 8346,
+        "likes": 146
       }
     ],
     "tip": [
@@ -513,6 +876,17 @@
         "date_raw": "2026.10.21",
         "views": 8384,
         "likes": 296
+      },
+      {
+        "id": 6613544,
+        "category": "대학 꿀팁",
+        "tab": "tip",
+        "title": "대학교 졸업사진 망치기 싫다면! 옷·학위복·꽃다발 비용 아끼는 꿀팁까지",
+        "url": "https://community.linkareer.com/job-materials/6613544",
+        "date": "2026-10-12",
+        "date_raw": "2026.10.12",
+        "views": 8358,
+        "likes": 469
       }
     ]
   }
