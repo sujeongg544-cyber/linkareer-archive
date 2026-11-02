@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>링커리어 필독 취업자료 아카이브</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --line: #e7e9ee;
+    --text: #1a1d24;
+    --sub: #6b7280;
+    --muted: #9aa1ad;
+    --brand: #01a0ff;
+    --brand-weak: #e6f5ff;
+    --activity: #22a06b;
+    --recruit: #4766e0;
+    --news: #e0662a;
+    --tip: #a23fd0;
+    --shadow: 0 1px 2px rgba(16,24,40,.04), 0 1px 3px rgba(16,24,40,.06);
+    --radius: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1115; --card: #171a21; --line: #262b35;
+      --text: #e8eaed; --sub: #9aa1ad; --muted: #6b7280;
+      --brand-weak: #0b2433;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1115; --card: #171a21; --line: #262b35;
+    --text: #e8eaed; --sub: #9aa1ad; --muted: #6b7280;
+    --brand-weak: #0b2433;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 1px 3px rgba(0,0,0,.4);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+      "Pretendard", "Malgun Gothic", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 24px 16px 64px; }
+
+  header.top { margin-bottom: 20px; }
+  .title-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.02em; }
+  .subtitle { color: var(--sub); font-size: 13px; margin-top: 6px; }
+  .meta-row {
+    display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+    margin-top: 12px; font-size: 12.5px; color: var(--muted);
+  }
+  .meta-row b { color: var(--text); font-weight: 600; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); display: inline-block; }
+
+  .controls {
+    display: flex; gap: 10px; align-items: center; margin: 18px 0 14px;
+    flex-wrap: wrap;
+  }
+  .search {
+    flex: 1; min-width: 200px; display: flex; align-items: center; gap: 8px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 9px 12px; box-shadow: var(--shadow);
+  }
+  .search input {
+    border: none; outline: none; background: transparent; color: var(--text);
+    font-size: 14px; width: 100%; font-family: inherit;
+  }
+  .search svg { flex-shrink: 0; opacity: .5; }
+
+  .tabs {
+    display: flex; gap: 6px; border-bottom: 1px solid var(--line);
+    margin-bottom: 4px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  }
+  .tab {
+    appearance: none; border: none; background: transparent; cursor: pointer;
+    padding: 10px 14px 12px; font-size: 14.5px; font-weight: 600; color: var(--sub);
+    border-bottom: 2.5px solid transparent; white-space: nowrap; font-family: inherit;
+    display: flex; align-items: center; gap: 7px; transition: color .12s;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--text); border-bottom-color: var(--tabcolor, var(--brand)); }
+  .tab .cnt {
+    font-size: 12px; font-weight: 600; color: var(--muted);
+    background: var(--bg); border-radius: 20px; padding: 1px 8px; min-width: 22px; text-align: center;
+  }
+  .tab.active .cnt { color: #fff; background: var(--tabcolor, var(--brand)); }
+  .tab .swatch { width: 8px; height: 8px; border-radius: 50%; background: var(--tabcolor); }
+
+  .list { margin-top: 10px; }
+  .daygroup { margin-bottom: 18px; }
+  .dayhead {
+    font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: .02em;
+    padding: 6px 2px; position: sticky; top: 0; background: var(--bg); z-index: 1;
+  }
+  .row {
+    display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 7px; box-shadow: var(--shadow);
+    transition: border-color .12s, transform .06s;
+  }
+  .row:hover { border-color: var(--brand); }
+  .row:active { transform: translateY(1px); }
+  .row .body { flex: 1; min-width: 0; }
+  .row .ttl {
+    font-size: 14.5px; font-weight: 500; color: var(--text);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .row .meta { font-size: 12px; color: var(--muted); margin-top: 3px; display: flex; gap: 10px; }
+  .row .ext { flex-shrink: 0; opacity: .3; }
+  .row:hover .ext { opacity: .7; }
+
+  .empty { text-align: center; color: var(--muted); padding: 48px 0; font-size: 14px; }
+
+  footer {
+    margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line);
+    font-size: 12px; color: var(--muted); text-align: center; line-height: 1.7;
+  }
+  footer a { color: var(--brand); text-decoration: none; }
+  .badge {
+    display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px;
+    border-radius: 6px; vertical-align: middle;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title-row">
+      <h1>링커리어 필독 취업자료 아카이브</h1>
+    </div>
+    <div class="subtitle">커뮤니티 '필독 취업자료' 게시판 — 최근 <span id="days">14</span>일치 제목 아카이빙 · 팀 공유용</div>
+    <div class="meta-row">
+      <span><span class="dot"></span> 마지막 업데이트 <b id="updated">—</b></span>
+      <span>수집 범위 <b id="range">—</b></span>
+      <span>총 <b id="total">—</b>건</span>
+    </div>
+  </header>
+
+  <div class="controls">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="제목 검색…" autocomplete="off" />
+    </label>
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="list" id="list"></div>
+
+  <footer>
+    매일 오전 7시(KST) 자동 수집 · 출처
+    <a href="https://community.linkareer.com/job-materials" target="_blank" rel="noopener">링커리어 커뮤니티</a><br/>
+    제목을 클릭하면 원문으로 이동합니다.
+  </footer>
+</div>
+
+<script>
+const TAB_COLORS = { activity:'var(--activity)', recruit:'var(--recruit)', news:'var(--news)', tip:'var(--tip)' };
+let DATA = null;
+let activeTab = null;
+let query = '';
+
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function fmtDate(iso) {
+  const d = new Date(iso + 'T00:00:00+09:00');
+  const days = ['일','월','화','수','목','금','토'];
+  const today = DATA ? DATA.generated_date : null;
+  const m = d.getMonth()+1, day = d.getDate();
+  let label = `${m}월 ${day}일 (${days[d.getDay()]})`;
+  if (iso === today) label = '오늘 · ' + label;
+  return label;
+}
+
+function render() {
+  const list = document.getElementById('list');
+  const items = (DATA.tabs[activeTab] || []).filter(it =>
+    !query || it.title.toLowerCase().includes(query.toLowerCase())
+  );
+
+  if (!items.length) {
+    list.innerHTML = `<div class="empty">${query ? '검색 결과가 없어요.' : '이 탭에 최근 글이 없어요.'}</div>`;
+    return;
+  }
+
+  // 날짜별 그룹핑
+  const groups = {};
+  for (const it of items) (groups[it.date] ||= []).push(it);
+  const dates = Object.keys(groups).sort().reverse();
+
+  let html = '';
+  for (const date of dates) {
+    html += `<div class="daygroup"><div class="dayhead">${fmtDate(date)}</div>`;
+    for (const it of groups[date]) {
+      html += `<a class="row" href="${esc(it.url)}" target="_blank" rel="noopener">
+        <div class="body">
+          <div class="ttl">${esc(it.title)}</div>
+          <div class="meta"><span>조회 ${it.views.toLocaleString()}</span><span>추천 ${it.likes}</span></div>
+        </div>
+        <svg class="ext" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+      </a>`;
+    }
+    html += `</div>`;
+  }
+  list.innerHTML = html;
+}
+
+function renderTabs() {
+  const tabs = document.getElementById('tabs');
+  tabs.innerHTML = '';
+  for (const key of DATA.tab_order) {
+    const btn = document.createElement('button');
+    btn.className = 'tab' + (key === activeTab ? ' active' : '');
+    btn.style.setProperty('--tabcolor', TAB_COLORS[key]);
+    btn.innerHTML = `<span class="swatch"></span>${DATA.tab_labels[key]}<span class="cnt">${DATA.counts[key]}</span>`;
+    btn.onclick = () => { activeTab = key; renderTabs(); render(); };
+    tabs.appendChild(btn);
+  }
+}
+
+async function load() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    DATA = await res.json();
+  } catch (e) {
+    document.getElementById('list').innerHTML = '<div class="empty">데이터를 불러오지 못했어요.</div>';
+    return;
+  }
+  activeTab = DATA.tab_order[0];
+  document.getElementById('days').textContent = DATA.days;
+  document.getElementById('total').textContent = DATA.total.toLocaleString();
+  document.getElementById('range').textContent = `${DATA.cutoff_date} ~ ${DATA.generated_date}`;
+  const g = new Date(DATA.generated_at);
+  document.getElementById('updated').textContent =
+    `${g.getFullYear()}.${String(g.getMonth()+1).padStart(2,'0')}.${String(g.getDate()).padStart(2,'0')} ${String(g.getHours()).padStart(2,'0')}:${String(g.getMinutes()).padStart(2,'0')}`;
+  renderTabs();
+  render();
+}
+
+document.getElementById('q').addEventListener('input', e => { query = e.target.value; render(); });
+load();
+</script>
+</body>
+</html>

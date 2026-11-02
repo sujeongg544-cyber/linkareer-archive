@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-11-02T07:00:00+09:00",
+  "generated_date": "2026-11-02",
+  "cutoff_date": "2026-10-20",
+  "days": 14,
+  "total": 13,
+  "tab_labels": {
+    "activity": "맞춤 활동",
+    "recruit": "맞춤 채용",
+    "news": "뉴스",
+    "tip": "대학 꿀팁"
+  },
+  "tab_order": [
+    "activity",
+    "recruit",
+    "news",
+    "tip"
+  ],
+  "counts": {
+    "activity": 3,
+    "recruit": 3,
+    "news": 4,
+    "tip": 3
+  },
+  "tabs": {
+    "activity": [
+      {
+        "id": 8423,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🍋삼성·올리브영·토스까지! 인기 대기업에서 마케팅 스펙 쌓는 대외활동 모음",
+        "url": "https://community.linkareer.com/job-materials/8423",
+        "date": "2026-11-02",
+        "date_raw": "",
+        "views": 278,
+        "likes": 1
+      },
+      {
+        "id": 8416,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🥩경쟁률 낮게 대기업 인기기업 인턴하자! 이번주 일경험 인턴 공고 모음",
+        "url": "https://community.linkareer.com/job-materials/8416",
+        "date": "2026-10-29",
+        "date_raw": "",
+        "views": 360,
+        "likes": 0
+      },
+      {
+        "id": 8408,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🌐어문학과 추천! 외국인과 교류하고 글로벌 스펙 쌓는 활동.zip",
+        "url": "https://community.linkareer.com/job-materials/8408",
+        "date": "2026-10-28",
+        "date_raw": "",
+        "views": 183,
+        "likes": 1
+      }
+    ],
+    "recruit": [
+      {
+        "id": 8422,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🦍현대·네이버·SK까지! 인기 대기업 신입·인턴 공고.zip",
+        "url": "https://community.linkareer.com/job-materials/8422",
+        "date": "2026-11-02",
+        "date_raw": "",
+        "views": 227,
+        "likes": 2
+      },
+      {
+        "id": 8415,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🐮한전부터 관광공사까지! 인기 공기업 청년인턴 공고 모음.zip",
+        "url": "https://community.linkareer.com/job-materials/8415",
+        "date": "2026-10-29",
+        "date_raw": "",
+        "views": 209,
+        "likes": 0
+      },
+      {
+        "id": 8407,
+        "category": "맞춤 채용",
+        "tab": "recruit",
+        "title": "🍜신라면부터 올리브영까지! 생활 속 인기 브랜드 신입 공고 모음 LIST",
+        "url": "https://community.linkareer.com/job-materials/8407",
+        "date": "2026-10-28",
+        "date_raw": "",
+        "views": 138,
+        "likes": 1
+      }
+    ],
+    "news": [
+      {
+        "id": 8421,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[11/02] 하나증권, 청년 공모전…입상하면 \"신입채용 서류면제\"",
+        "url": "https://community.linkareer.com/job-materials/8421",
+        "date": "2026-11-02",
+        "date_raw": "",
+        "views": 636,
+        "likes": 1
+      },
+      {
+        "id": 8420,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[11/02] \"SK하닉 취업 기회였는데…\" 시스템 장애로 AI 해커톤 파행",
+        "url": "https://community.linkareer.com/job-materials/8420",
+        "date": "2026-11-02",
+        "date_raw": "",
+        "views": 309,
+        "likes": 0
+      },
+      {
+        "id": 8414,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/29] 해외서 일한 경험 있다면…국내 기업 45곳 채용 나선다",
+        "url": "https://community.linkareer.com/job-materials/8414",
+        "date": "2026-10-29",
+        "date_raw": "",
+        "views": 532,
+        "likes": 0
+      },
+      {
+        "id": 8412,
+        "category": "뉴스",
+        "tab": "news",
+        "title": "[10/29] \"1800명 면접 평가에 6시간\"…SK AX, AI 채용 솔루션 선보여",
+        "url": "https://community.linkareer.com/job-materials/8412",
+        "date": "2026-10-29",
+        "date_raw": "",
+        "views": 591,
+        "likes": 0
+      }
+    ],
+    "tip": [
+      {
+        "id": 8419,
+        "category": "대학 꿀팁",
+        "tab": "tip",
+        "title": "대학생 공강 시간을 장학금으로, 국가근로장학금 총정리!",
+        "url": "https://community.linkareer.com/job-materials/8419",
+        "date": "2026-11-01",
+        "date_raw": "",
+        "views": 29,
+        "likes": 0
+      },
+      {
+        "id": 8411,
+        "category": "대학 꿀팁",
+        "tab": "tip",
+        "title": "무료 토큰 싹싹 긁어먹는 대학생 ai 추천.zip",
+        "url": "https://community.linkareer.com/job-materials/8411",
+        "date": "2026-10-29",
+        "date_raw": "",
+        "views": 296,
+        "likes": 2
+      },
+      {
+        "id": 8409,
+        "category": "대학 꿀팁",
+        "tab": "tip",
+        "title": "[문과 자격증] 비전공자여도 괜찮아! SQLD 합격 공부법.jpg",
+        "url": "https://community.linkareer.com/job-materials/8409",
+        "date": "2026-10-28",
+        "date_raw": "",
+        "views": 263,
+        "likes": 4
+      }
+    ]
+  }
+}
