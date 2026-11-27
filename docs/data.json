@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T12:56:13.897513+09:00",
-  "generated_date": "2026-11-26",
-  "cutoff_date": "2026-10-28",
+  "generated_at": "2026-11-27T12:55:51.095698+09:00",
+  "generated_date": "2026-11-27",
+  "cutoff_date": "2026-10-29",
   "days": 30,
-  "total": 56,
+  "total": 54,
   "tab_labels": {
     "activity": "맞춤 활동",
     "recruit": "맞춤 채용",
@@ -17,10 +17,10 @@
     "tip"
   ],
   "counts": {
-    "activity": 13,
+    "activity": 14,
     "recruit": 6,
-    "news": 26,
-    "tip": 11
+    "news": 24,
+    "tip": 10
   },
   "tabs": {
     "activity": [
@@ -32,8 +32,19 @@
         "url": "https://community.linkareer.com/job-materials/6779253",
         "date": "2026-11-25",
         "date_raw": "2026.11.25",
-        "views": 414,
+        "views": 443,
         "likes": 1
+      },
+      {
+        "id": 6775998,
+        "category": "맞춤 활동",
+        "tab": "activity",
+        "title": "🤑용돈 부족한 대학생에게 추천! 활동비 쏠쏠한 대외활동 공고 LIST",
+        "url": "https://community.linkareer.com/job-materials/6775998",
+        "date": "2026-11-24",
+        "date_raw": "2026.11.24",
+        "views": 313,
+        "likes": 2
       },
       {
         "id": 6755177,
@@ -43,7 +54,7 @@
         "url": "https://community.linkareer.com/job-materials/6755177",
         "date": "2026-11-19",
         "date_raw": "2026.11.19",
-        "views": 413,
+        "views": 430,
         "likes": 1
       },
       {
@@ -54,7 +65,7 @@
         "url": "https://community.linkareer.com/job-materials/6755151",
         "date": "2026-11-18",
         "date_raw": "2026.11.18",
-        "views": 340,
+        "views": 341,
         "likes": 2
       },
       {
@@ -65,7 +76,7 @@
         "url": "https://community.linkareer.com/job-materials/6752995",
         "date": "2026-11-17",
         "date_raw": "2026.11.17",
-        "views": 3679,
+        "views": 3942,
         "likes": 1
       },
       {
@@ -76,7 +87,7 @@
         "url": "https://community.linkareer.com/job-materials/6751979",
         "date": "2026-11-17",
         "date_raw": "2026.11.17",
-        "views": 445,
+        "views": 449,
         "likes": 1
       },
       {
@@ -87,7 +98,7 @@
         "url": "https://community.linkareer.com/job-materials/6734195",
         "date": "2026-11-12",
         "date_raw": "2026.11.12",
-        "views": 315,
+        "views": 335,
         "likes": 0
       },
       {
@@ -109,7 +120,7 @@
         "url": "https://community.linkareer.com/job-materials/6726429",
         "date": "2026-11-10",
         "date_raw": "2026.11.10",
-        "views": 571,
+        "views": 579,
         "likes": 1
       },
       {
@@ -120,7 +131,7 @@
         "url": "https://community.linkareer.com/job-materials/6721716",
         "date": "2026-11-09",
         "date_raw": "2026.11.09",
-        "views": 301,
+        "views": 302,
         "likes": 2
       },
       {
@@ -153,7 +164,7 @@
         "url": "https://community.linkareer.com/job-materials/6692656",
         "date": "2026-11-02",
         "date_raw": "2026.11.02",
-        "views": 411,
+        "views": 412,
         "likes": 1
       },
       {
@@ -164,7 +175,7 @@
         "url": "https://community.linkareer.com/job-materials/6679000",
         "date": "2026-10-29",
         "date_raw": "2026.10.29",
-        "views": 497,
+        "views": 499,
         "likes": 0
       }
     ],
@@ -177,7 +188,7 @@
         "url": "https://community.linkareer.com/job-materials/6755126",
         "date": "2026-11-19",
         "date_raw": "2026.11.19",
-        "views": 389,
+        "views": 400,
         "likes": 0
       },
       {
@@ -188,7 +199,7 @@
         "url": "https://community.linkareer.com/job-materials/6734240",
         "date": "2026-11-12",
         "date_raw": "2026.11.12",
-        "views": 327,
+        "views": 329,
         "likes": 0
       },
       {
@@ -210,7 +221,7 @@
         "url": "https://community.linkareer.com/job-materials/6721644",
         "date": "2026-11-09",
         "date_raw": "2026.11.09",
-        "views": 380,
+        "views": 383,
         "likes": 1
       },
       {
@@ -221,7 +232,7 @@
         "url": "https://community.linkareer.com/job-materials/6692556",
         "date": "2026-11-02",
         "date_raw": "2026.11.02",
-        "views": 316,
+        "views": 317,
         "likes": 2
       },
       {
@@ -232,7 +243,7 @@
         "url": "https://community.linkareer.com/job-materials/6678926",
         "date": "2026-10-29",
         "date_raw": "2026.10.29",
-        "views": 374,
+        "views": 376,
         "likes": 0
       }
     ],
@@ -245,7 +256,7 @@
         "url": "https://community.linkareer.com/job-materials/6780074",
         "date": "2026-11-25",
         "date_raw": "2026.11.25",
-        "views": 303,
+        "views": 307,
         "likes": 0
       },
       {
@@ -256,7 +267,7 @@
         "url": "https://community.linkareer.com/job-materials/6772655",
         "date": "2026-11-23",
         "date_raw": "2026.11.23",
-        "views": 582,
+        "views": 598,
         "likes": 0
       },
       {
@@ -267,7 +278,7 @@
         "url": "https://community.linkareer.com/job-materials/6762958",
         "date": "2026-11-20",
         "date_raw": "2026.11.20",
-        "views": 348,
+        "views": 358,
         "likes": 0
       },
       {
@@ -278,7 +289,7 @@
         "url": "https://community.linkareer.com/job-materials/6759562",
         "date": "2026-11-19",
         "date_raw": "2026.11.19",
-        "views": 574,
+        "views": 581,
         "likes": 0
       },
       {
@@ -289,7 +300,7 @@
         "url": "https://community.linkareer.com/job-materials/6756072",
         "date": "2026-11-18",
         "date_raw": "2026.11.18",
-        "views": 1136,
+        "views": 1138,
         "likes": 1
       },
       {
@@ -300,7 +311,7 @@
         "url": "https://community.linkareer.com/job-materials/6755614",
         "date": "2026-11-18",
         "date_raw": "2026.11.18",
-        "views": 659,
+        "views": 664,
         "likes": 0
       },
       {
@@ -311,7 +322,7 @@
         "url": "https://community.linkareer.com/job-materials/6752682",
         "date": "2026-11-17",
         "date_raw": "2026.11.17",
-        "views": 771,
+        "views": 857,
         "likes": 0
       },
       {
@@ -344,7 +355,7 @@
         "url": "https://community.linkareer.com/job-materials/6738107",
         "date": "2026-11-13",
         "date_raw": "2026.11.13",
-        "views": 568,
+        "views": 578,
         "likes": 0
       },
       {
@@ -399,7 +410,7 @@
         "url": "https://community.linkareer.com/job-materials/6722624",
         "date": "2026-11-09",
         "date_raw": "2026.11.09",
-        "views": 813,
+        "views": 817,
         "likes": 0
       },
       {
@@ -421,7 +432,7 @@
         "url": "https://community.linkareer.com/job-materials/6706817",
         "date": "2026-11-05",
         "date_raw": "2026.11.05",
-        "views": 400,
+        "views": 401,
         "likes": 1
       },
       {
@@ -432,7 +443,7 @@
         "url": "https://community.linkareer.com/job-materials/6705859",
         "date": "2026-11-05",
         "date_raw": "2026.11.05",
-        "views": 511,
+        "views": 513,
         "likes": 0
       },
       {
@@ -443,7 +454,7 @@
         "url": "https://community.linkareer.com/job-materials/6697901",
         "date": "2026-11-03",
         "date_raw": "2026.11.03",
-        "views": 526,
+        "views": 528,
         "likes": 0
       },
       {
@@ -454,7 +465,7 @@
         "url": "https://community.linkareer.com/job-materials/6696969",
         "date": "2026-11-03",
         "date_raw": "2026.11.03",
-        "views": 413,
+        "views": 414,
         "likes": 0
       },
       {
@@ -476,7 +487,7 @@
         "url": "https://community.linkareer.com/job-materials/6692681",
         "date": "2026-11-02",
         "date_raw": "2026.11.02",
-        "views": 481,
+        "views": 482,
         "likes": 0
       },
       {
@@ -487,7 +498,7 @@
         "url": "https://community.linkareer.com/job-materials/6679786",
         "date": "2026-10-29",
         "date_raw": "2026.10.29",
-        "views": 567,
+        "views": 568,
         "likes": 0
       },
       {
@@ -498,29 +509,7 @@
         "url": "https://community.linkareer.com/job-materials/6678595",
         "date": "2026-10-29",
         "date_raw": "2026.10.29",
-        "views": 640,
-        "likes": 0
-      },
-      {
-        "id": 6675511,
-        "category": "뉴스",
-        "tab": "news",
-        "title": "[10/28] “내 월급 수준 봤더니”… 절반은 300만 원 이상, 5명 중 1명은 200만 원 미만",
-        "url": "https://community.linkareer.com/job-materials/6675511",
-        "date": "2026-10-28",
-        "date_raw": "2026.10.28",
-        "views": 363,
-        "likes": 0
-      },
-      {
-        "id": 6674607,
-        "category": "뉴스",
-        "tab": "news",
-        "title": "[10/28] IBK투자증권, 신입사원 공개채용 실시",
-        "url": "https://community.linkareer.com/job-materials/6674607",
-        "date": "2026-10-28",
-        "date_raw": "2026.10.28",
-        "views": 398,
+        "views": 641,
         "likes": 0
       }
     ],
@@ -533,7 +522,7 @@
         "url": "https://community.linkareer.com/job-materials/6737842",
         "date": "2026-11-13",
         "date_raw": "2026.11.13",
-        "views": 637,
+        "views": 648,
         "likes": 3
       },
       {
@@ -544,7 +533,7 @@
         "url": "https://community.linkareer.com/job-materials/6737701",
         "date": "2026-11-13",
         "date_raw": "2026.11.13",
-        "views": 359,
+        "views": 361,
         "likes": 0
       },
       {
@@ -555,7 +544,7 @@
         "url": "https://community.linkareer.com/job-materials/6737393",
         "date": "2026-11-13",
         "date_raw": "2026.11.13",
-        "views": 460,
+        "views": 462,
         "likes": 3
       },
       {
@@ -566,7 +555,7 @@
         "url": "https://community.linkareer.com/job-materials/6734373",
         "date": "2026-11-12",
         "date_raw": "2026.11.12",
-        "views": 435,
+        "views": 436,
         "likes": 2
       },
       {
@@ -577,7 +566,7 @@
         "url": "https://community.linkareer.com/job-materials/6733535",
         "date": "2026-11-12",
         "date_raw": "2026.11.12",
-        "views": 458,
+        "views": 462,
         "likes": 4
       },
       {
@@ -599,7 +588,7 @@
         "url": "https://community.linkareer.com/job-materials/6732917",
         "date": "2026-11-12",
         "date_raw": "2026.11.12",
-        "views": 478,
+        "views": 480,
         "likes": 1
       },
       {
@@ -610,7 +599,7 @@
         "url": "https://community.linkareer.com/job-materials/6729948",
         "date": "2026-11-11",
         "date_raw": "2026.11.11",
-        "views": 629,
+        "views": 642,
         "likes": 2
       },
       {
@@ -632,19 +621,8 @@
         "url": "https://community.linkareer.com/job-materials/6679023",
         "date": "2026-10-29",
         "date_raw": "2026.10.29",
-        "views": 366,
+        "views": 368,
         "likes": 2
-      },
-      {
-        "id": 6676100,
-        "category": "대학 꿀팁",
-        "tab": "tip",
-        "title": "[문과 자격증] 비전공자여도 괜찮아! SQLD 합격 공부법.jpg",
-        "url": "https://community.linkareer.com/job-materials/6676100",
-        "date": "2026-10-28",
-        "date_raw": "2026.10.28",
-        "views": 401,
-        "likes": 4
       }
     ]
   }
